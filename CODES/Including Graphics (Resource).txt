@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+
+\title{Our First Document}
+\author{Nouman Azam}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[height = 0.5\textheight,width = 0.8\textwidth,keepaspectratio]{cat.jpg}
+\caption{This is a picture of the cat}
+\label{cat_picture}
+\end{center}
+\end{figure}
+
+This is the picture of the cat and is Figure~\ref{cat_picture}. 
+
+
+\subsection{Second level subsection}
+
+
+\subsubsection{Third level of subsection}
+This is the third level of sections. 
+
+
+
+
+\end{document}

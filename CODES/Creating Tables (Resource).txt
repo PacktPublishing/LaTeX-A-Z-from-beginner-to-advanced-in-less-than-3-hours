@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+
+% Comments are here
+
+\title{Our First Document}
+\author{Nouman Azam}
+
+\date{}
+
+\begin{document}
+\maketitle
+This is a table without the table floating enviroment
+
+\vspace{0.5cm}
+
+\begin{tabular}{|c|c|}
+\hline 
+Entity & Description \\ 
+\hline 
+A &  This is A \\ 
+\hline 
+B & This is B \\
+\hline
+\end{tabular}
+
+\vspace{0.5cm}
+
+This is the table with the floating enviroment. 
+
+
+\begin{table}[htbp]
+\caption{This is my first table}
+\begin{center}
+
+\begin{tabular}{|c|c|}
+\hline 
+Entity & Description \\ 
+\hline 
+A &  This is A \\ 
+\hline 
+B & This is B \\
+\hline
+\end{tabular}
+\end{center}
+\label{first_table}
+\end{table}
+
+
+I want to refer to the my table which is Table~\ref{first_table}. 
+
+
+\subsection{Second level subsection}
+
+
+\subsubsection{Third level of subsection}
+This is the third level of sections. 
+
+
+
+
+\end{document}

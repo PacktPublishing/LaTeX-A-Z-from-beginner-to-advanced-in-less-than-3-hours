@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+% Comments are here
+
+\title{Our First Document}
+\author{Nouman Azam}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+
+\begin{eqnarray}
+\label{equation_1}
+6*4*7 &=& 10*5 \nonumber \\ 
+\label{equation_2}
+6*4    = &10&*5
+\end{eqnarray}
+
+
+
+\section{Conclusion}
+
+
+
+
+\end{document}

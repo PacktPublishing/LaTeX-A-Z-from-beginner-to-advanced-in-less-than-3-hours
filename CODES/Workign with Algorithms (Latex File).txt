@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{amsmath}
+
+% Comments are here
+
+\title{Our First Document}
+\author{Nouman Azam}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introductory section}
+
+
+\begin{algorithm}[htbp]
+\caption{This is our sample algorithm}
+\label{algorithm_1}
+\begin{algorithmic}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\ENSURE the corresponding
+\REQUIRE iNFORMATION TABLE
+\IF {$a \geq 5$}
+	\STATE The value is greater than five
+\ELSE
+	\WHILE {a !=5 }
+	\STATE A is not equal to five
+	\ENDWHILE
+\ENDIF
+\end{algorithmic}
+\end{algorithm}
+
+This is the algorithm~\ref{algorithm_1}
+
+
+\end{document}

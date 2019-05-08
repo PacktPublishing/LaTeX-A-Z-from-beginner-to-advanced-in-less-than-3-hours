@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\title{Our First Document}
+\author{Nouman Azam}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+This is an equation inline $b = 5^4$.
+
+\begin{equation}
+\label{first_equation}
+\alpha\,\,\,\,\, \beta \gamma \rightarrow \cup \text{ something here } \geq \leq
+\end{equation}
+
+This is the reference to the equation~\ref{first_equation}.
+
+\subsection{Second level subsection}
+
+
+\subsubsection{Third level of subsection}
+This is the third level of sections. 
+
+
+
+
+\end{document}

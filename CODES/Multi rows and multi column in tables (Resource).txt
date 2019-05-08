@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{multirow}
+% Comments are here
+
+\title{Our First Document}
+\author{Nouman Azam}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+
+This is the table with the floating enviroment. 
+
+
+\begin{table}[htbp]
+\caption{This is my first table}
+\begin{center}
+\begin{tabular}{|c|c|c|p{2.5cm}|}
+\hline
+&\multicolumn{2}{c|}{Grades} & Description \\ 
+\cline{2-4}
+&English & Math & \\ 
+\hline
+\multirow{3}{*}{Section A} & A & A+ & This is relatively good grades\\ 
+							  & B & B & the performance is satisfacotry\\
+							  & C & B+ & Needs improvement\\ 
+\hline
+
+\end{tabular}
+\end{center}
+\label{first_table}
+\end{table}
+
+
+I want to refer to the my table which is Table~\ref{first_table}. 
+
+
+\subsection{Second level subsection}
+
+
+\subsubsection{Third level of subsection}
+This is the third level of sections. 
+
+
+
+
+\end{document}
